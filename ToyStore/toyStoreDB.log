@@ -1,0 +1,2 @@
+/*C20*/SET SCHEMA PUBLIC
+create table master_inventory (item_id integer not null, cost numeric(19,2) not null, item_description varchar(255), quantity integer not null, sale_price numeric(19,2), sku varchar(255), vendor varchar(255), primary key (item_id))
